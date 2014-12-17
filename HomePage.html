@@ -1,0 +1,42 @@
+<html>
+<head>
+	<link href='base2.css' rel='stylesheet' type='text/css'>
+	<meta charset='utf-8'>
+</head>
+	<body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+            var locate = window.android.getLatestLocation();
+            locate = JSON.parse(locate);
+			//var locate= {"longitude":124, "latitude":25};//testdata
+			$.ajax({
+					 url: "uplocate.php",
+					 data: {longitude:locate.longitude, latitude:locate.latitude},
+					 type:'POST',
+					 dataType:'text',
+					 error: function(xhr) {
+						alert('Ajax request error');
+					},
+					success: function() {
+					}			
+			});	
+    </script>
+	<div id='container'><!--container-->
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<!--URL記得改-->
+	<!--URL記得改-->
+	<!--URL記得改-->
+		<a href="locate.html">
+			<img src="radar_v2.png" width="40%" style="margin-left:10%">
+		</a>
+		<a href="youtube.html">
+			<img src="search.png" width="40%">
+		</a>
+		<!--URL記得改-->
+		<!--URL記得改-->
+		<!--URL記得改-->
+	</div>
+	</body>
+
+
+</html>
