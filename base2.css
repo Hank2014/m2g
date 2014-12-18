@@ -1,0 +1,27 @@
+
+body {
+   
+/*    margin-top: -20px;*/
+    	
+	background-image: url(background2.jpg); background-repeat: no-repeat; background-position: 50% 0%;
+	background-size: 500px;
+	background-color:black; 
+	/*height: 620px;
+	background-size: contain;*/
+	
+	/*
+	background-color:black 
+	調完再打開*/
+    
+	/*padding-bottom: 160px;*/
+/*
+    font-size: 16px;
+    font-family: 'Gafata', sans-serif;
+    line-height: 1.5em;
+*/
+	}
+#container {
+    margin: 0 auto;
+    max-width: 500px;
+}
+

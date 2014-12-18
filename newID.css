@@ -1,0 +1,85 @@
+.subm{
+	text-align: center;
+	margin-top: 30%;
+	color: white;
+	font-size: 25px;
+
+}
+.subm button
+		{
+		/*
+		overflow: visible;
+		position: relative;
+		border: 0;
+		padding: 0;
+		cursor: pointer;
+		height: 40px;
+		width: 110px;
+		font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+		color: #fff;
+		text-transform: uppercase;
+		background: #d83c3c;
+		border-radius: 0 3px 3px 0;      
+		text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+		*/
+		
+		overflow: visible;
+		position: relative;
+		border: 0;
+		padding: 0;
+		cursor: pointer;
+		height: 40px;
+		width: 250px;
+		font: bold 14px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+		font-size: 20px;
+		/*color: #fff;*/
+		text-transform: uppercase;
+		color: fuchsia;
+		background: black;
+		/*background: #d83c3c;*/
+		border-size:1;
+		border:1px	solid #fff;
+		/*text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);*/
+		
+		
+		}   
+   
+		.subm button:hover
+		{     
+		/*background: #e54040;*/
+		background: black;
+		color:rgb(102, 102, 255);
+		
+		}   
+   
+		.subm button:active,
+		.subm button:focus
+		{  
+		color: rgb(0, 176, 240);
+		background: black;
+		outline: 0;   
+		/*background: #c42f2f;
+		outline: 0;   */
+		}
+ 
+		.subm button:before 
+		{ /* left arrow */
+			content: '';
+			/*position: absolute;
+			border-width: 8px 8px 8px 0;
+			border-style: solid solid solid none;
+			border-color: transparent #d83c3c transparent;
+			top: 12px;
+			left: -6px;*/
+		}
+ 
+		.subm button:hover:before
+		{
+		border-right-color: #e54040;
+		}
+ 
+		.subm button:focus:before,
+		.subm button:active:before
+		{
+        border-right-color: #c42f2f;
+		}

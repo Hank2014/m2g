@@ -1,0 +1,70 @@
+
+#acc{
+	margin-top: 90%;
+	text-align: center;
+}
+
+#acc span{
+	color: #fff;
+	/*color: fuchsia;*/
+}
+
+/*宇軒buttom*/
+.subm button
+{
+	overflow: visible;
+	position: relative;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 80px;
+	font: bold 14px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	font-size: 20px;
+	/*color: #fff;*/
+	text-transform: uppercase;
+	color: fuchsia;
+	background: black;
+	/*background: #d83c3c;*/
+	border-size:1;
+	border:1px	solid #fff;
+	/*text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);*/
+}   
+   
+.subm button:hover
+{     
+	background: black;
+	color:rgb(102, 102, 255);
+}   
+   
+.subm button:active,
+.subm button:focus
+{   
+	color: rgb(0, 176, 240);
+	background: black;
+	outline: 0;   
+}
+ 
+/*.subm button:before 
+{ 
+	content: '';
+	position: absolute;
+	border-width: 8px 8px 8px 0;
+	border-style: solid solid solid none;
+	border-color: transparent #d83c3c transparent;
+	top: 12px;
+	left: -6px;
+}*/
+ 
+.subm button:hover:before
+{
+	border-right-color: #e54040;
+}
+ 
+.subm button:focus:before,
+.subm button:active:before
+{
+    border-right-color: #c42f2f;
+}
+/*宇軒buttom*/  
+  
